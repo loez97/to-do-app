@@ -19,7 +19,7 @@ const createTaskElement = (task) => {
   taskText.textContent = task;
 
   const removeBtn = document.createElement("span");
-  removeBtn.innerHTML = `<i class="bi bi-x-lg"></i>`;
+  removeBtn.innerHTML = `<i class="bi bi-trash"></i>`;
   removeBtn.classList.add("btn-remove");
 
   newTask.append(taskText, removeBtn);
